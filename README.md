@@ -6,8 +6,8 @@ This repository contains a few scripts for R programming language to estimate th
 I wrote this code to better understand the Kalman Filter and Smoother in action. The code is not fully efficient as it does not use any matrix operation, however the scalar notation greatly facilitates the understanding of each passage in the algorithm.
 In each script, the model assumes the following State Space structure:
  
-# y_t = C * x_t     + eta_t,   eta_t~N(0,R)  (observation equation)
-# x_t = A * x_{t-1} + eps_t,   eps_t~N(0,Q)  (transition equation)
+ y_t = C * x_t     + eta_t,   eta_t~N(0,R)  (observation equation)
+ x_t = A * x_{t-1} + eps_t,   eps_t~N(0,Q)  (transition equation)
 
 where    y         = dxT matrix of T observations for d observed series
          R         = dxd observational error matrix
